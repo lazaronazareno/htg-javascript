@@ -3,3 +3,8 @@ var parrafos = document.querySelectorAll('.comment--text');
 parrafos[0].style.color="red";
 parrafos[0].style.backgroundColor="black";
 parrafos[0].style.fontSize="150%";
+
+var nuevoestilo = document.querySelectorAll('hr');
+for ( i=0;i<nuevoestilo.length;i++){
+    nuevoestilo[i].classList.add('estilonuevo');
+    }

@@ -51,7 +51,7 @@ main {
 }
 
 .comment--text {
-  font-weight: ;
+  font-weight:normal ;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,4 +61,11 @@ main {
     --bg-color: #222;
     --font-color: #AAA;
   }
+}
+
+.estilonuevo{
+  color: darkred;
+  border-color: yellow;
+  height:10px;
+  background-color: yellow;
 }
