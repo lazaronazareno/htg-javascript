@@ -69,3 +69,7 @@ main {
   height:10px;
   background-color: yellow;
 }
+
+.nomostrar{
+  display: none;
+}

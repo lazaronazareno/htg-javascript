@@ -7,4 +7,14 @@ parrafos[0].style.fontSize="150%";
 var nuevoestilo = document.querySelectorAll('hr');
 for ( i=0;i<nuevoestilo.length;i++){
     nuevoestilo[i].classList.add('estilonuevo');
+}
+
+var caracteres =document.querySelectorAll('.comment--text');
+  caracteres[2].classList.add('nomostrar');
+
+  var comentarios =document.querySelectorAll('.comment--text'); 
+  for (i=0;comentarios.length;i++){
+    if (comentarios[i].textContent.length<100){
+        comentarios[i].classList.add('nomostrar');
     }
+  }
